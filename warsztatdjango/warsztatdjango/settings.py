@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'aplikacja_do_sal',
+    'warsztatdjango',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'warsztatdjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'HOST': '127.0.0.1',
         'NAME': 'conference_rooms',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'postgres',
